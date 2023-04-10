@@ -16,7 +16,19 @@
 
 ```python
 # TODO: you code here...
-```
+```#Даны координаты (x,y) двух точек на координатной плоскости. Вычислите расстояние между точками.
+xa = int(input(" xa:" ))
+xb = int(input(" xb: "))
+ya = int(input(" ya: "))
+yb = int(input(" yb: "))
+
+d = (((xb - xa)**2) + ((yb-ya)**2))**0.5
+
+
+
+print(d)
+
+
 
 ---
 
