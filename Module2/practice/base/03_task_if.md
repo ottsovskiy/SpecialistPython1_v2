@@ -17,11 +17,13 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+summ = int(input("введите сумму:"))
+price = int(input("введите цену:"))
 
----
+if summ>=price:
+    print("ваша сдача",summ-price)
+else:
+    print("Денег не достаточно") 
 
 ### Данные для самопроверки
 
