@@ -14,11 +14,12 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+a = int(input("hour:"))
 
----
+if a < 1000 :
+    print("Может")
+else:
+    print("Не может")    
 
 ### Подсказки
 
